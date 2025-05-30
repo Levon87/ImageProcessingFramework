@@ -22,7 +22,7 @@ class Program
 
         var results = await processor.ProcessBatchAsync(jobs);
        
-        ReturnResults(results);
+        PrintResults(results);
         PrintPluginsInfo(registry);
     }
 
@@ -60,7 +60,7 @@ class Program
         };
     }
 
-    private static void ReturnResults(IEnumerable<ProcessingResult> results)
+    private static void PrintResults(IEnumerable<ProcessingResult> results)
     {
         Console.WriteLine("Processing Results:");
         foreach (var result in results)
