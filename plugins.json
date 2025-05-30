@@ -1,0 +1,6 @@
+{
+  "Assemblies": [
+    "./Plugins/CustomPlugins.dll",
+    "./Plugins/AdvancedEffects.dll"
+  ]
+}
