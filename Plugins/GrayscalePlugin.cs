@@ -6,7 +6,7 @@ namespace ImageProcessingFramework.Plugins
     public class GrayscalePlugin : IImagePlugin
     {
         public string Name => "Grayscale";
-        public string Description => "Черно-белое изображение";
+        public string Description => "Black and White Image";
         public Dictionary<string, Type> Parameters => new Dictionary<string, Type>();
 
         public async Task<ImageData> ProcessAsync(ImageData image, Dictionary<string, object> parameters)
